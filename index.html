@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login screen</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body class="bg-light h-100">
+    <div class="container h-100">
+      <div class="row h-100">
+        <div class="col-8 col-md-6 col-lg-4 mx-auto my-auto">
+          <div id="logo"><p>SZ</p></div>
+          <h1 class="h2 text-center font-weight-normal mb-3 mt-4">
+            Please sign in
+          </h1>
+          <form class="d-flex flex-column w-100">
+            <div class="form-group mb-0">
+              <input
+                type="email"
+                class="form-control"
+                id="exampleInputEmail1"
+                aria-describedby="emailHelp"
+                placeholder="Enter email"
+              />
+            </div>
+            <div class="form-group mb-1">
+              <input
+                type="password"
+                class="form-control"
+                id="exampleInputPassword1"
+                placeholder="Password"
+              />
+            </div>
+            <div class="form-group form-check text-center pl-0 mt-2">
+              <input
+                type="checkbox"
+                class="form-check-input"
+                id="exampleCheck1"
+              />
+              <label class="form-check-label" for="exampleCheck1"
+                >Remember me</label
+              >
+            </div>
+            <button type="submit" class="btn btn-primary">Sign in</button>
+          </form>
+          <small class="d-block text-center mt-5 text-muted">© 2017-2020</small>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
